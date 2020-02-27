@@ -1,0 +1,15 @@
+---
+title: "Presentaciones"
+author: "Juvenal Campos"
+date: "2/27/2020"
+output: html_document
+---
+
+# Sitio de almacenamiento de Paginas Web 
+
+### Presentaciones: 
+
+1. [Presentación de problemas de Probabilidad con R](MCA2020/Sesion1/index.html). 
+
+Clase de Metodos Cuantitativos Aplicados. CIDE - CPRRII, 2020. 
+
