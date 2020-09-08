@@ -39,6 +39,6 @@ output: html_document
 
 * **Sesión 2.** [Elaboración de mapas en {ggplot2}.](vis2020/Sesion2.pdf)
 
-
+* **Sesión 3.** [Introducción a la visualización interactiva](vis2020/Sesion2.pdf)
 
 
