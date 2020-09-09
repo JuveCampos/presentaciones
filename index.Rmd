@@ -41,4 +41,4 @@ output: html_document
 
 * **Sesión 3.** [Introducción a la visualización interactiva](vis2020/Sesion3.pdf)
 
-
+* **Sesión 4.** [Mapas interactivos en Leaflet](vis2020/Sesion4.pdf)
