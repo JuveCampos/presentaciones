@@ -7,15 +7,6 @@ output: html_document
 
 <div class="container-fluid main-container">
 
-<div class="fluid-row" id="header">
-
-<h1 class="title toc-ignore">Presentaciones</h1>
-<h4 class="author">Juvenal Campos</h4>
-<h4 class="date">2/27/2020</h4>
-
-</div>
-
-
 <div id="sitio-de-almacenamiento-de-paginas-web" class="section level1">
 <h1>Sitio de almacenamiento de Paginas Web</h1>
 <div id="presentaciones" class="section level3">
@@ -42,3 +33,5 @@ output: html_document
 * **Sesión 3.** [Introducción a la visualización interactiva](vis2020/Sesion3.pdf)
 
 * **Sesión 4.** [Mapas interactivos en Leaflet](vis2020/Sesion4.pdf)
+
+* **Sesión 5.** [R Markdown](https://rpubs.com/Juve_Campos/rmarkdown)
