@@ -35,3 +35,6 @@ output: html_document
 * **Sesión 4.** [Mapas interactivos en Leaflet](vis2020/Sesion4.pdf)
 
 * **Sesión 5.** [R Markdown](https://rpubs.com/Juve_Campos/rmarkdown)
+
+* **Sesión 5.** [Datos Abiertos y Descarga Automática de Datos](vis2020/Sesion6.pdf)
+
