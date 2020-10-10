@@ -36,5 +36,9 @@ output: html_document
 
 * **Sesión 5.** [R Markdown](https://rpubs.com/Juve_Campos/rmarkdown)
 
-* **Sesión 5.** [Datos Abiertos y Descarga Automática de Datos](vis2020/Sesion6.pdf)
+* **Sesión 6.** [Datos Abiertos y Descarga Automática de Datos](vis2020/Sesion6.pdf)
+
+* **Sesión 7.** [Descarga de datos a través de APIs](vis2020/Sesion7.pdf)
+
+* **Sesión 8.** [Introducción al Web Scraping en R](vis2020/Sesion8.pdf)
 
