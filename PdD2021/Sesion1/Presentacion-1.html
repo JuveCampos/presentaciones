@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Periodismo de Datos</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Juvenal Campos" />
+    <script src="libs/header-attrs-2.5/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+
+class: inverse, center
+background-image: url(bg.png)
+background-size: contain
+
+&lt;style&gt;
+&lt;/style&gt;
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+# Periodismo de Datos - Sesión 1
+## Introducción a RMarkdown
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;b style = 'color:black; font-size:25px'&gt;Jorge Juvenal Campos Ferreira&lt;/b&gt;&lt;br&gt;
+&lt;b style = 'color:black;'&gt;Laboratorio Nacional de Políticas Públicas&lt;/b&gt;&lt;br&gt;
+&lt;b style = 'color:black;'&gt;CIDE - LNPP&lt;/b&gt;&lt;br&gt;
+&lt;b style = 'color:black;'&gt;Enero, 2021&lt;/b&gt;&lt;br&gt;
+
+---
+# Objetivos de Aprendizaje
+
+1.	Entender la sintaxis básica de Markdown y su uso como una versión simplificada del HTML para generar páginas.
+
+2.	Aprender a incluir código y las maneras de incluir código en RMarkdown: 
+
+- Cuando se muestra y se ejecuta, 
+
+- Cuando no se muestra y se ejecuta (`echo = FALSE`),
+
+- Cuando se muestra y no se ejecuta (`eval = FALSE`). 
+
+3.	Aprender la sintaxis para incluir imágenes y videos en una página de Markdown. 
+
+4.	Aprender el proceso a seguir para la publicación de una página en RPubs y para subir el código a un repositorio de Github. 
+
+---
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/250px-Markdown-mark.svg.png)
+background-size: 100px
+background-position: 95% 5%
+
+#1.	¿Qué es Markdown? 
+
+&lt;br&gt;&lt;br&gt;
+
+Markdown es un lenguaje de marcado ligero creado por John Gruber que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida, inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano. 
+
+&lt;br&gt;
+
+Se distribuye bajo licencia BSD y se distribuye como plugin (o al menos está disponible) en diferentes sistemas de gestión de contenidos (CMS). (Por ejemplo, Github o Piazza utilizan este formato como opcional para trabajar dentro de estas plataformas).
+
+---
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/230px-HTML5_logo_and_wordmark.svg.png)
+background-size: 100px
+background-position: 95% 5%
+
+# 2.	¿Qué es HTML?
+
+&lt;br&gt;
+
+HTML, siglas en inglés de HyperText Markup Language (‘lenguaje de marcas de hipertexto’), hace referencia al lenguaje de marcado para la elaboración de páginas web. 
+
+&lt;br&gt;
+
+Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros. 
+
+&lt;br&gt;
+
+HTML se considera el lenguaje web más importante siendo su invención crucial en la aparición, desarrollo y expansión de la World Wide Web (WWW). Es el estándar que se ha impuesto en la visualización de páginas web y es el que todos los navegadores actuales han adoptado
+
+---
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/230px-HTML5_logo_and_wordmark.svg.png)
+background-size: 100px
+background-position: 95% 5%
+
+# Analogía de los lenguajes de la web.
+
+&lt;img src = "https://miro.medium.com/max/720/1*GlgYUkjsYquyI2ugNF5dBQ.jpeg" width = 500px&gt;
+
+En este curso, el cerebro será **R** en vez de JS.
+
+---
+background-image: url(https://raw.githubusercontent.com/rstudio/hex-stickers/master/PNG/rmarkdown.png)
+background-size: 100px
+background-position: 95% 5%
+
+# 3.	¿Qué es RMarkdown? 
+
+RMarkdown es un lenguaje de formato que nos permite revelar nuestros descubrimientos provenientes de un análisis de datos a través de la construcción de documentos PDF, HTML o incluso, aplicaciones Shiny.
+
+---
+background-image: url(https://raw.githubusercontent.com/rstudio/hex-stickers/master/PNG/rmarkdown.png)
+background-size: 100px
+background-position: 95% 5%
+
+# 4.	¿Por qué es importante saber RMarkdown? 
+
+**Algunas razones:** 
+
+-	Es parte importante del curso y el profesor quiere que lo aprendan. 
+
+-	Es una gran herramienta para poder aprender R y tomar apuntes que también requieran anotar código. 
+
+-	Nos permite compartir nuestros códigos de forma limpia y ordenada (no copien sus códigos a Word). 
+
+-	Permiten generar reportes de código reproducible, combinando nuestro código bien escrito con nuestra bonita redacción. 
+
+-	Permiten generar y publicar páginas web de manera rápida (y sencilla si aprender a usar R). 
+
+-	Es una excelente librería para aprender fundamentos de programación web.
+
+Entre otras razones.
+
+
+---
+background-image: url(https://raw.githubusercontent.com/rstudio/hex-stickers/master/PNG/rmarkdown.png)
+background-size: 100px
+background-position: 95% 5%
+
+# 5.	Formatos de salida
+
+RMarkdown nos permite crear algunos de los siguientes tipos de formatos: 
+
+-	Páginas HTML&lt;br&gt;&lt;br&gt;
+-	Documentos en *.pdf (en conjunto con una distribución de LATEX). &lt;br&gt;&lt;br&gt;
+-	Documentos de Word.&lt;br&gt;&lt;br&gt;
+-	Presentaciones (Xaringan).&lt;br&gt;&lt;br&gt;
+-	Blogs utilizando la librería blogdown.&lt;br&gt;&lt;br&gt;
+-	Libros electrónicos con formato bookdown. &lt;br&gt;&lt;br&gt;
+
+---
+background-image: url(https://raw.githubusercontent.com/rstudio/hex-stickers/master/PNG/rmarkdown.png)
+background-size: 100px
+background-position: 95% 5%
+
+# 6.	¿Qué partes conforman un&lt;br&gt;RMarkdown? 
+
+**a.	Encabezado YAML**
+
+-	Regula los parámetros con los que va a funcionar el documento. 
+
+**b.	Texto y HTML**
+
+-	Contenido del texto del documento (lo que no es código). 
+
+**c.	Chunk de código. **
+
+-	Sección del documento que va a ejecutar código. 
+
+---
+background-image: url(https://raw.githubusercontent.com/rstudio/hex-stickers/master/PNG/rmarkdown.png)
+background-size: 100px
+background-position: 95% 5%
+
+# **7.	¿Cómo puedo introducir texto? **
+
+
+  a.	Texto normal
+&lt;br&gt;&lt;br&gt;
+  b.	Texto en Negritas
+&lt;br&gt;&lt;br&gt;
+  c.	Texto en itálicas
+&lt;br&gt;&lt;br&gt;
+  d.	Texto de código
+&lt;br&gt;&lt;br&gt;
+  e.	Enlaces
+&lt;br&gt;&lt;br&gt;
+  f.	Texto con estilos (CSS)
+&lt;br&gt;&lt;br&gt;
+  g.	Imágenes
+&lt;br&gt;&lt;br&gt;
+  h.	Código HTML
+&lt;br&gt;&lt;br&gt;
+
+
+---
+background-image: url(https://raw.githubusercontent.com/rstudio/hex-stickers/master/PNG/rmarkdown.png)
+background-size: 100px
+background-position: 95% 5%
+
+# **8.	¿Cómo puedo introducir código de R? **
+
+a.	Chunk de código
+i.	Nombre del chunk
+ii.	Opciones del chunk
+    1.	Opción para ocultar/mostrar el código
+    2.	Opción para no ejecutar el código
+    3.	Opción para regular el tamaño de las figuras
+    4.	Opciones para no mostrar mensajes de consola
+
+# **9.	Publicación**
+  
+  a.	Publicación en RPubs. 
+  
+  b.	Publicación en Github Pages. 
+
+---
+background-image: url(https://raw.githubusercontent.com/rstudio/hex-stickers/master/PNG/rmarkdown.png)
+background-size: 100px
+background-position: 95% 5%
+
+# **Videos: **
+
+**-	Publicar documentos de R a RPubs.** https://www.youtube.com/channel/UCICkEQr2pAwU2hyw6xoBzAw
+
+**-	Publicar documentos en Github Pages**
+En proceso
+
+**-	Publicar documentos en Netlify**
+En proceso
+
+**-	Creación de un Blog en Blogdown**
+En proceso
+
+---
+background-image: url(https://raw.githubusercontent.com/rstudio/hex-stickers/master/PNG/rmarkdown.png)
+background-size: 100px
+background-position: 95% 5%
+
+# **Material**
+
+-	Presentación curso Vis2020: https://rpubs.com/Juve_Campos/rmarkdown
+
+-	RMarkdown the definitive guide https://bookdown.org/yihui/rmarkdown/
+
+-	RMarkdown Cookbook https://bookdown.org/yihui/rmarkdown-cookbook/
+
+-	Authoring Bookdown https://bookdown.org/yihui/bookdown/
+
+-	Galería. RMarkdown from RStudio. https://rmarkdown.rstudio.com/gallery.html
+
+-	Creating sites with blogdown. https://bookdown.org/yihui/blogdown/
+
+-	Blog de Yihui Xie: https://yihui.org/en/
+
+-	Presentaciones Xaringan: https://bookdown.org/yihui/rmarkdown/xaringan.html
+
+-	Pimp my .RMD: https://holtzy.github.io/Pimp-my-rmd/
+
+-	RMarkdown cheatsheet: https://rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf
+
+- Why RMarkdown: https://rmd4sci.njtierney.com/why-rmarkdown.html_
+
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
