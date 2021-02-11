@@ -10,19 +10,23 @@ output: html_document
 <div id="sitio-de-almacenamiento-de-paginas-web" class="section level1">
 <h1>Sitio de almacenamiento de Paginas Web</h1>
 <div id="presentaciones" class="section level3">
-<h3>Presentaciones:</h3>
+
+## Clase de Periodismo de Datos 2021 - MPPP
+
+* **Sesión 1. ** [Introducción a RMarkdown](PdD2021/Sesion1/Presentacion-1.html)
+
+* **Sesión 3. ** [Expresiones regulares con `rebus`](PdD2021/Sesion3/Presentacion3.pdf)
+
+<br><br><br>
+
+<h2>Clase de Metodos Cuantitativos Aplicados. CIDE - CPRRII, 2020.</h2>
 <ol style="list-style-type: decimal">
 <li><a href="MCA2020/Sesion1/index.html">Presentación de problemas de Probabilidad con R</a>.</li>
 <li><a href="MCA2020/Sesion2/index.html">Solución cuestionario de prueba</a>.</li>
 <li><a href="MCA2020/ProblemasSelectos/problemasSelectos.pdf">Problemas selectos previos al primer exámen.</a></li>
 </ol>
-<p>Clase de Metodos Cuantitativos Aplicados. CIDE - CPRRII, 2020.</p>
 </div>
 </div>
-
-## Clase de Periodismo de Datos 2021 - MPPP
-
-* **Sesión 1. ** [Introducción a RMarkdown](PdD2021/Sesion1/Presentacion-1.html)
 
 </div>
 <br>
