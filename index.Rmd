@@ -17,6 +17,8 @@ output: html_document
 
 * **Sesión 3. ** [Expresiones regulares con `rebus`](PdD2021/Sesion3/Presentacion3.pdf)
 
+* **Sesión 4. ** [Mapas en `ggplot2`](PdD2021/Sesion4/presentacion4.pdf)
+
 <br><br><br>
 
 <h2>Clase de Metodos Cuantitativos Aplicados. CIDE - CPRRII, 2020.</h2>
