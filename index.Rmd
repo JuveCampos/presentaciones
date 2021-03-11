@@ -21,6 +21,8 @@ output: html_document
 
 * **Sesión 5. ** [Mapas interactivos con leaflet](PdD2021/Sesion5/presentacion5.pdf)
 
+* **Sesión 6. ** [Visualización interactiva en R](PdD2021/Sesion6/presentacion6.pdf)
+
 <br><br><br>
 
 <h2>Clase de Metodos Cuantitativos Aplicados. CIDE - CPRRII, 2020.</h2>
