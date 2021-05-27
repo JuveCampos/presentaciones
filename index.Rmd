@@ -31,6 +31,8 @@ output: html_document
 
 * **Sesión 13. ** [Introducción a Github](PdD2021/Sesion13/presentacion13.pdf)
 
+* **Sesión 15. ** [Periodismo de datos](PdD2021/Sesion15/presentacion15.pdf)
+
 <br><br><br>
 
 <h2>Clase de Metodos Cuantitativos Aplicados. CIDE - CPRRII, 2020.</h2>
