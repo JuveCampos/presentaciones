@@ -11,6 +11,10 @@ output: html_document
 <h1>Sitio de almacenamiento de Paginas Web</h1>
 <div id="presentaciones" class="section level3">
 
+## LNPP-Tech
+
+* **Junio 2021** [Introducción y conceptos básicos de visualización de datos](lnpp_tech/presentacion_dataviz.pdf)
+
 ## Clase de Periodismo de Datos 2021 - MPPP
 
 * **Sesión 1. ** [Introducción a RMarkdown](PdD2021/Sesion1/Presentacion-1.html)
