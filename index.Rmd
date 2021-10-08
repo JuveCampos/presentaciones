@@ -17,6 +17,8 @@ output: html_document
 
 * **Julio 2021** [Visualización de datos en R - Parte Prácitca](lnpp_tech/lnpp_tech_viz_2.pdf)
 
+* **Octubre, 2021** [¿Cómo generar valor público a partir de datos abiertos? - Master Class dada en el marco del Datatón "Tu Dinero, Tus Datos" de la ADIP - CDMX junto con Nayeli Aguirre y Juan Javier Santos](lnpp_tech/como_generar_valor_publico_a_partir_de_datos_abiertos_masterclass_lnpp.pdf)
+
 ## Clase de Periodismo de Datos 2021 - MPPP
 
 * **Sesión 1. ** [Introducción a RMarkdown](PdD2021/Sesion1/Presentacion-1.html)
