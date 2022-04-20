@@ -21,11 +21,9 @@ output: html_document
 
 ## Curso de Periodismo de datos de UNESCO 
 
-* **Sesión 01** [Introducción al periodismo de datos](UNESCO/Presentación 01.pdf)
+* **Sesión 01** [Introducción al periodismo de datos](UNESCO/Presentacion_01.pdf)
 
-* **Sesión 02** [Introducción a los datos y al periodismo de datos](UNESCO/Presentación 02.pdf)
-
-
+* **Sesión 02** [Introducción a los datos y al periodismo de datos](UNESCO/Presentacion_02.pdf)
 
 
 ## Clase de Periodismo de Datos 2021 - MPPP
