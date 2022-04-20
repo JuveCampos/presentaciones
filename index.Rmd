@@ -19,7 +19,14 @@ output: html_document
 
 * **Octubre, 2021** [¿Cómo generar valor público a partir de datos abiertos? - Master Class dada en el marco del Datatón "Tu Dinero, Tus Datos" de la ADIP - CDMX junto con Nayeli Aguirre y Juan Javier Santos](lnpp_tech/como_generar_valor_publico_a_partir_de_datos_abiertos_masterclass_lnpp.pdf)
 
-* **Noviembre, 2021** [Clase de visualización + Visualización de datos cualitativos](lnpp_tech/Visualización.pdf)
+## Curso de Periodismo de datos de UNESCO 
+
+* **Sesión 01** [Introducción al periodismo de datos](UNESCO/Presentación 01.pdf)
+
+* **Sesión 02** [Introducción a los datos y al periodismo de datos](UNESCO/Presentación 02.pdf)
+
+
+
 
 ## Clase de Periodismo de Datos 2021 - MPPP
 
