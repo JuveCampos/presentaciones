@@ -21,7 +21,7 @@ output: html_document
 
 ## Curso de R para CONEVAL
 
-* **Sesión 01.** [Introducción a los datos espaciales](r_coneval_2024/Presentación 01 Informacion geografica.pdf)
+* **Sesión 01.** [Introducción a los datos espaciales](r_coneval_2024/01_info_geograficaa.pdf)
 
 ## Curso de Periodismo de datos de UNESCO 
 
