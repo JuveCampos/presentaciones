@@ -19,6 +19,10 @@ output: html_document
 
 * **Octubre, 2021** [¿Cómo generar valor público a partir de datos abiertos? - Master Class dada en el marco del Datatón "Tu Dinero, Tus Datos" de la ADIP - CDMX junto con Nayeli Aguirre y Juan Javier Santos](lnpp_tech/como_generar_valor_publico_a_partir_de_datos_abiertos_masterclass_lnpp.pdf)
 
+## Curso de R para CONEVAL
+
+* **Sesión 01.** [Introducción a los datos espaciales](r_coneval_2024/Presentación 01 Informacion geografica.pdf)
+
 ## Curso de Periodismo de datos de UNESCO 
 
 * **Sesión 01** [Introducción al periodismo de datos](UNESCO/Presentacion_01.pdf)
