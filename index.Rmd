@@ -23,6 +23,8 @@ output: html_document
 
 * **Sesión 01.** [Introducción a los datos espaciales](r_coneval_2024/01_info_geografica.pdf)
 
+* **Sesión 02.** [Visualización de datos espaciales](r_coneval_2024/02_visualizacion.pdf)
+
 ## Curso de Periodismo de datos de UNESCO 
 
 * **Sesión 01** [Introducción al periodismo de datos](UNESCO/Presentacion_01.pdf)
